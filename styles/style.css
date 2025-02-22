@@ -160,12 +160,14 @@
 
 .card-link {
   height: 100%;
+  width: 100%;
   text-decoration: none;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
+  position: absolute;
 }
 
 .card {
