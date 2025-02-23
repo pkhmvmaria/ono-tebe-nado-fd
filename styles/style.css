@@ -26,8 +26,11 @@
   text-decoration: underline;
 }
 
-.header__link_active {
+.header__link-left {
   list-style: none;
+}
+
+.header__link_active {
   text-decoration: none;
 }
 
@@ -167,7 +170,7 @@
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-  position: absolute;
+  position: relative;
 }
 
 .card {
@@ -308,7 +311,6 @@
 }
 
 .footer__link_active {
-  align-self: center;
   text-decoration: none;
 }
 
